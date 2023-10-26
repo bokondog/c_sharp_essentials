@@ -56,45 +56,62 @@ namespace MovieBudget
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if(TxtLogin.Text.Length > 2) { 
-                if(TxtLogin.Text.ToLower() == "admin")
-                {
-                    ImgUser.Source = new BitmapImage(new Uri("/MovieBudget;component/img/admin.png", UriKind.Relative));
-                } else
-                {
-                    ImgUser.Source = new BitmapImage(new Uri("/MovieBudget;component/img/user.png", UriKind.Relative));
-                }
-                Login();
+            if(TxtLogin.Text.Length > 2) 
+            {
+                string usernameNoCaps = TxtLogin.Text.ToLower();
+                Login(usernameNoCaps);
             } 
             else 
             {
-                Logout();
                 MessageBox.Show("Username moet minstens 3 karakters bevatten");
+                Logout();
             }
         }
 
-        private void Login()
+        private BitmapImage LoadNewImage(string fileName = "user", string fileExtension = "png")
         {
+            return new BitmapImage(new Uri($"/MovieBudget;component/img/{fileName}.{fileExtension}", UriKind.Relative));
+        }
+        private void Login(string username)
+        {
+            ImgUser.Source = username == "admin" ? LoadNewImage(username) : LoadNewImage();        
             ImgUser.Visibility = Visibility.Visible;
             PanelMovie.Visibility = Visibility.Visible;
         }
 
-        private void Logout()
+        private void HideElements()
         {
+            TxtResultaat.Visibility = Visibility.Hidden;
+            BtnWissen.Visibility = Visibility.Hidden;
             ImgUser.Visibility = Visibility.Hidden;
             PanelMovie.Visibility = Visibility.Hidden;
         }
 
+        private void ClearText()
+        {
+            TxtResultaat.Text = "";
+            TxtMovieName.Text = "";
+            LblBudget.Content = "";
+            TxtLogin.Text = "";
+        }
+
+        private void SetDefaultValues()
+        {
+            totalBudget = 0;
+            InitializeStringBuilder();
+            InitializeSlider();
+        }
+
+        private void Logout()
+        {
+            HideElements();
+            ClearText();
+            SetDefaultValues();
+        }
+
         private void TxtMovieName_KeyUp(object sender, KeyEventArgs e)
         {
-            if (TxtMovieName.Text.Length > 0)
-            {
-                SliderReleaseYear.IsEnabled = true;
-            }
-            else
-            {
-                SliderReleaseYear.IsEnabled = false;
-            }
+                SliderReleaseYear.IsEnabled = TxtMovieName.Text.Length > 0;
         }
 
         private void SliderReleaseYear_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -141,17 +158,6 @@ namespace MovieBudget
 
         private void BtnWissen_Click(object sender, RoutedEventArgs e)
         {
-            TxtResultaat.Visibility= Visibility.Hidden;
-            TxtResultaat.Text = "";
-            InitializeStringBuilder();
-
-            BtnWissen.Visibility = Visibility.Hidden;
-            ImgUser.Visibility = Visibility.Hidden;
-            TxtMovieName.Text = "";
-            InitializeSlider();
-            totalBudget = 0;
-            LblBudget.Content = "";
-            TxtLogin.Text = "";
             Logout();
         }
     }
