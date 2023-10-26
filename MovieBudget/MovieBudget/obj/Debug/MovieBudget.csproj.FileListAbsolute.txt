@@ -1,0 +1,15 @@
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\bin\Debug\MovieBudget.exe.config
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\bin\Debug\MovieBudget.exe
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\bin\Debug\MovieBudget.pdb
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.csproj.AssemblyReference.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MainWindow.g.cs
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\App.g.cs
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget_MarkupCompile.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget_MarkupCompile.lref
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MainWindow.baml
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.g.resources
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.Properties.Resources.resources
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.csproj.GenerateResource.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.csproj.CoreCompileInputs.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.exe
+C:\Users\drhat\stuff\school\c_sharp_essentials\MovieBudget\MovieBudget\obj\Debug\MovieBudget.pdb

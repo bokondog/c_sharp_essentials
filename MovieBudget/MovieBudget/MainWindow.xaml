@@ -1,0 +1,52 @@
+﻿<Window x:Class="MovieBudget.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieBudget"
+        mc:Ignorable="d"
+        Title="PXL Movie Budget 2023-2024" Height="600" Width="800" Loaded="Window_Loaded">
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="210"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.ColumnSpan="2" Grid.RowSpan="3">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Bestand">
+                    <MenuItem Name="MenuClose" Header="Afsluiten" Click="MenuClose_Click"/>
+                </MenuItem>
+            </Menu>
+            
+            <WrapPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10">
+                <Button Visibility="Hidden" Name="BtnWissen" Content="Wissen" Width="100" Margin="10" Click="BtnWissen_Click"></Button>
+                <Label Name="LblDatum" Margin="10"></Label>
+                <Label Name="LblBudget" Margin="10"></Label>
+            </WrapPanel>
+        </DockPanel>
+        <WrapPanel Background="AliceBlue" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Label VerticalAlignment="Center" Content="Username:"></Label>
+            <TextBox Name="TxtLogin" VerticalAlignment="Center" Width="100" Margin="10"></TextBox>
+            <Button Name="BtnLogin" Content="Login" VerticalAlignment="Center" Width="100" Margin="10" Click="BtnLogin_Click"></Button>
+        </WrapPanel>
+        <Image Name="ImgUser" Visibility="Hidden" Grid.Row="1" Grid.Column="0" Source="/img/user.png"></Image>
+        <StackPanel Name="PanelMovie" Visibility="Hidden" Grid.Row="1" Grid.Column="1" Background="LawnGreen" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <WrapPanel Margin="10">
+                <Label Content="MovieName"></Label>
+                <TextBox x:Name="TxtMovieName" Width="100" KeyUp="TxtMovieName_KeyUp"></TextBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Release year"></Label>
+                <Slider Name="SliderReleaseYear" IsEnabled="False" Width="100" ValueChanged="SliderReleaseYear_ValueChanged"></Slider>
+                <Label Name="LblReleaseYear"></Label>
+            </WrapPanel>
+            <Button x:Name="BtnAddMovie" Content="Add movie" Width="100" Margin="10" Click="BtnAddMovie_Click"></Button>
+        </StackPanel>
+        <TextBox Visibility="Hidden" x:Name="TxtResultaat" FontFamily="Consolas" Grid.Row="2" Grid.Column="1" Background="Red" Foreground="White" Width="200" Height="150" VerticalAlignment="Top"></TextBox>
+    </Grid>
+</Window>
