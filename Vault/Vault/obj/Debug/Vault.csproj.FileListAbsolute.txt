@@ -1,0 +1,15 @@
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\bin\Debug\Vault.exe.config
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\bin\Debug\Vault.exe
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\bin\Debug\Vault.pdb
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.csproj.AssemblyReference.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\MainWindow.g.cs
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\App.g.cs
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault_MarkupCompile.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault_MarkupCompile.lref
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\MainWindow.baml
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.g.resources
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.Properties.Resources.resources
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.csproj.GenerateResource.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.csproj.CoreCompileInputs.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.exe
+C:\Users\drhat\stuff\school\c_sharp_essentials\Vault\Vault\obj\Debug\Vault.pdb
