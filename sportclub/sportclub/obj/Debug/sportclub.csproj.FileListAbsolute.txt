@@ -1,0 +1,15 @@
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\bin\Debug\sportclub.exe.config
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\bin\Debug\sportclub.exe
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\bin\Debug\sportclub.pdb
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.csproj.AssemblyReference.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\MainWindow.g.cs
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\App.g.cs
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub_MarkupCompile.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub_MarkupCompile.lref
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\MainWindow.baml
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.g.resources
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.Properties.Resources.resources
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.csproj.GenerateResource.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.csproj.CoreCompileInputs.cache
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.exe
+C:\Users\drhat\stuff\school\c_sharp_essentials\sportclub\sportclub\obj\Debug\sportclub.pdb
